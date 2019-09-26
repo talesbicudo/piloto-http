@@ -208,7 +208,6 @@ figure {
 #fh5co-header .display-tc .profile-thumb,
 .fh5co-cover .display-tc .profile-thumb {
   background-size: cover !important;
-  background: url(images/user-3.jpg) !important;
   background-position: center center !important;
   background-repeat: no-repeat !important;
   position: relative;
@@ -420,7 +419,6 @@ figure {
   position: relative;
   height: 200px;
   width: 200px;
-  background: url(images/user-3.jpg) !important;
   margin: 0 auto;
   margin-bottom: 30px;
   -webkit-border-radius: 50%;
