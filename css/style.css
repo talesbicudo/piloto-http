@@ -229,6 +229,11 @@ figure {
   font-size: 30px;
 }
 
+@media screen and (max-width: 992px) {
+  .profile-thumb {
+    visibility: hidden;
+  }
+}
 #fh5co-features {
   background: rgba(191, 157, 141, 0.9);
 }

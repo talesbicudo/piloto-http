@@ -334,6 +334,11 @@ figure {
     }
 }
 
+@media screen and (max-width: $screen-md) {
+    .profile-thumb {
+        visibility: hidden;
+    }
+}
 
 #fh5co-features {
     background: $brand-primary;
