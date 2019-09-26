@@ -309,9 +309,9 @@ figure {
 
         .profile-thumb {
             background-size: cover !important;
-            background: url(images/user-3.jpg);
-            background-position: center center;
-            background-repeat: no-repeat;
+            background: url(images/user-3.jpg) !important;
+            background-position: center center !important;
+            background-repeat: no-repeat !important;
             position: relative;
             height: 200px;
             width: 200px;
@@ -528,12 +528,12 @@ figure {
 
     .profile-thumb {
         background-size: cover !important;
-        background-position: center center;
-        background-repeat: no-repeat;
+        background-position: center center !important;
+        background-repeat: no-repeat !important;
         position: relative;
         height: 200px;
         width: 200px;
-        background: url(images/user-3.jpg);
+        background: url(images/user-3.jpg) !important;
         margin: 0 auto;
         margin-bottom: 30px;
         // border: 1px solid rgba($brand-white,1);
