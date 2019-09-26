@@ -139,10 +139,10 @@
 		contentWayPoint();
 		goToTop();
 		loaderPage();
-		fullHeight();
-		parallax();
+		// fullHeight();
+		// parallax();
 		// pieChart();
-		skillsWayPoint();
+		// skillsWayPoint();
 	});
 
 	var player = new Plyr('#player');

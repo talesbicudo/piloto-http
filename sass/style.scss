@@ -201,8 +201,8 @@ figure {
     background-size: cover;
     background-attachment: fixed;
     position: relative;
-	width: 100%;
-	padding-bottom: 10rem;
+    width: 100%;
+    padding-bottom: 10rem;
 
     .overlay {
         position: absolute;
@@ -309,6 +309,7 @@ figure {
 
         .profile-thumb {
             background-size: cover !important;
+            background: url(images/user-3.jpg);
             background-position: center center;
             background-repeat: no-repeat;
             position: relative;
@@ -408,7 +409,7 @@ figure {
 #fh5co-pricing,
 #fh5co-contact {
 
-	
+
     padding: 7em 0;
     clear: both;
 
@@ -532,6 +533,7 @@ figure {
         position: relative;
         height: 200px;
         width: 200px;
+        background: url(images/user-3.jpg);
         margin: 0 auto;
         margin-bottom: 30px;
         // border: 1px solid rgba($brand-white,1);
@@ -1517,23 +1519,23 @@ input[type="text"] {
 
 
 .plyr--full-ui input[type=range] {
-	color: $brand-primary;
-  }
-  
-  .plyr__control--overlaid {
-	background: rgba($brand-primary, .8);
-  }
-  
-  .plyr--video .plyr__control.plyr__tab-focus,
-  .plyr--video .plyr__control:hover,
-  .plyr--video .plyr__control[aria-expanded=true] {
-	background:  $brand-bg-dark;
-  }
-  
-  .plyr__control.plyr__tab-focus {
-	box-shadow: 0 0 0 5px rgba($brand-primary, .5);
-  }
-  
-  .plyr__menu__container .plyr__control[role=menuitemradio][aria-checked=true]::before {
-	background: $brand-primary;
-  }
+    color: $brand-primary;
+}
+
+.plyr__control--overlaid {
+    background: rgba($brand-primary, .8);
+}
+
+.plyr--video .plyr__control.plyr__tab-focus,
+.plyr--video .plyr__control:hover,
+.plyr--video .plyr__control[aria-expanded=true] {
+    background: $brand-bg-dark;
+}
+
+.plyr__control.plyr__tab-focus {
+    box-shadow: 0 0 0 5px rgba($brand-primary, .5);
+}
+
+.plyr__menu__container .plyr__control[role=menuitemradio][aria-checked=true]::before {
+    background: $brand-primary;
+}
